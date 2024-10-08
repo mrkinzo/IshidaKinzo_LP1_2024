@@ -15,7 +15,7 @@ public class new_File_Kish {
                 System.out.print('O');
             }
         }
-        System.out.println();
+        
     }
   } 
 }

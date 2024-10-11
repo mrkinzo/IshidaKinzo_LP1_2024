@@ -6,13 +6,14 @@ public class BC_1097 {
     }
 
     public static void printSequenciaIJL() {
-        for (int i = 1; i <=3; i++) {
-            
-            for ( int j = 7; j < 13; j += 5) {
-
-                System.out.printf("I=%d J=%d", j, i);
-                System.out.println();
-            }
+        int j=7; int i=1;
+        while (i<=9){
+     for (int k = 0; k < 3; k++) {
+        System.out.println("I=" + i + " J=" + j);
+        j--;
+     }
+     j+=5; i+=2;
+       
         }
     }
 }

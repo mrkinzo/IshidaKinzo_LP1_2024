@@ -14,19 +14,19 @@ public class BC_2311 {
     }
 
     public static void calcularSaltos() {
-        int grauDif = 0;
-        int notaFinal = 0;
-        double nota = 0;
-        int somaNota = 0;
-        double maiorNota = 0;
-        double menorNota = 0;
+        float grauDif = 0;
+        float notaFinal = 0;
+        float nota = 0;
+        float somaNota = 0;
+    float maiorNota = 0;
+    float menorNota = 0;
         String nome = null;
 
-        grauDif = Scan.nextInt();
+        grauDif = Scan.nextFloat();
 
-        for (int i = 0; i <= 7; i++) {
+        for (int i = 0; i < 7; i++) {
             nome = Scan.nextLine();
-            nota = Scan.nextDouble();
+            nota = Scan.nextFloat();
             if (nota > maiorNota) {
                 maiorNota += nota;
             }
@@ -41,7 +41,7 @@ public class BC_2311 {
             printCompetitdor(nome, notaFinal);
         }
     }
-    public static void printCompetitdor(String nome , double notaFinal){
-        System.out.printf("%s %.2f/n", nome, notaFinal);
+    public static void printCompetitdor(String nome ,float notaFinal){
+        System.out.printf("%s %.2f\n", nome, notaFinal);
     }
 }

@@ -8,7 +8,7 @@ public class BC_1131 {
 
         int v = 0;
         v = SCN.nextInt();
-    
+
         return v;
     }
 
@@ -20,39 +20,52 @@ public class BC_1131 {
         int vitoriasG = 0;
         int vitoriasI = 0;
         int empates = 0;
-        int t = 0;
+        int grenais = 0;
         String vencedor = null;
 
         do {
+            grenais++;
+
+            golsinter = requestInt();
+            golsGremio = requestInt();
+
+            if (golsGremio > golsinter) {
+
+                vitoriasG++;
+
+            } else if (golsGremio < golsinter) {
+
+                vitoriasI++;
+
+            } else {
+
+                empates++;
+
+            }
             System.out.println("Novo grenal (1-sim 2-nao)");
-      
-            t = requestInt();
-            while (t != 1 || t != 2) {
-                t = requestInt();   
-            }
-                golsGremio = requestInt();
-                golsinter = requestInt();
+        } while (requestInt() == 1);
 
-                if (golsGremio < golsinter) {
-                    vitoriasG++;
-                } else {
-                    if (golsGremio == golsinter) {
+        if (vitoriasG > vitoriasI) {
+            vencedor = "Gremio";
+        } else if (vitoriasI > vitoriasG){
+            vencedor = "Inter";
+        } else {
+            vencedor = "Empate";
+        }
 
-                        empates++;
+        System.out.println(grenais + " grenais");
 
-                    } else {
-                        vitoriasI++;
-                    }
-        
-            }
+        System.out.println("Inter:" + vitoriasI);
 
-        }while (t!=2);
-      
-        System.out.printf("%d grenais/n",(vitoriasG+vitoriasI+empates));
-        System.out.printf("Inter :%d", vitoriasI);
-        System.out.printf("Gremio :%d", vitoriasG);
-        System.out.printf("Empates :%d", empates);
-        System.out.printf("%d venceu mais", vencedor);
+        System.out.println("Gremio:" + vitoriasG);
+
+        System.out.println("Empates:" + empates);
+
+        if (vencedor != "Empate") {
+            System.out.println(vencedor + " venceu mais");
+        } else {
+            System.out.println("Nao houve vencedor");
+        }
     }
 
 }

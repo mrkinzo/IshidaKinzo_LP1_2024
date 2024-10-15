@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BC_1095",
+            "request": "launch",
+            "mainClass": "BC_1095",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "BC_1097",
+            "request": "launch",
+            "mainClass": "BC_1097",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "BC_1113",
+            "request": "launch",
+            "mainClass": "BC_1113",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "BC_1131",
+            "request": "launch",
+            "mainClass": "BC_1131",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "BC_1214",
+            "request": "launch",
+            "mainClass": "BC_1214",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "BC_2311",
+            "request": "launch",
+            "mainClass": "BC_2311",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "BC_2862",
+            "request": "launch",
+            "mainClass": "BC_2862",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "Ishida_Kinzo_1564",
+            "request": "launch",
+            "mainClass": "Ishida_Kinzo_1564",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "kish",
+            "request": "launch",
+            "mainClass": "kish",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
+            "name": "new_File_Kish",
+            "request": "launch",
+            "mainClass": "new_File_Kish",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        }
+    ]
+}

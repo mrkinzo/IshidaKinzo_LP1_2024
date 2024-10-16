@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BC_1101",
+            "request": "launch",
+            "mainClass": "BC_1101",
+            "projectName": "IshidaKinzo_LP1_2024_9e560157"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

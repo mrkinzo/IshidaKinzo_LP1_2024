@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KinzoIshida_1547_Advinha",
+            "request": "launch",
+            "mainClass": "KinzoIshida_1547_Advinha",
+            "projectName": "IshidaKinzo_LP1_2024_3aabcb2b"
+        },
+        {
+            "type": "java",
             "name": "BC_1101",
             "request": "launch",
             "mainClass": "BC_1101",

@@ -17,23 +17,32 @@ public class KinzoIshida_1547_Advinha {
         int numAluno = 0;
         int alunos = 1;
         int numAprox = 0;
+
         for (int i = 0; i < camisetas; i++) {
-            
+
             casos = Sc.nextInt();
             numeroAdv = Sc.nextInt();
-           
 
-             while(alunos < casos) {
+            while (alunos < casos) {
                 numAluno = Sc.nextInt();
                 numAprox = numAluno - numeroAdv;
+
                 if (numAprox == 1 || numAprox == 0) {
                     System.out.println(alunos);
-                    
+
                 }
-               alunos++;               
-                   
+                alunos++;
+
             }
         }
 
     }
 }
+/*
+ * Conceito D
+ * 
+ * Ir nos atendimentos para fazer as atividades de recuperação.
+ * 
+ * Fazer as atividades durante as aulas, tem feito poucas atividades.
+ * 
+ */

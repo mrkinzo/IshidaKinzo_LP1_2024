@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class EduardoIshida_1329_CaraCoroa {
     final static Scanner SC = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
+      
         int casos = 0;
         calcularResultado(casos);
 

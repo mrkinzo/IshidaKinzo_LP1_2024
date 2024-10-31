@@ -77,12 +77,5 @@ public class ex1_vetor {
 
         return n;
     }
-    public static int encontrarMaiorNota(int[]vetorNotas){
-      for (int i = 1; i < vetorNotas.length; i++) {
-        int maior=vetorNotas[0];
-        if (i> maior) {
-            maior=i;
-        }        
-      }
-    }
+  
 }

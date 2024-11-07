@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ishida_1177",
+            "request": "launch",
+            "mainClass": "Beecrowd.ishida_1177",
+            "projectName": "IshidaKinzo_LP1_2024_3aabcb2b"
+        },
+        {
+            "type": "java",
             "name": "Ishida1173",
             "request": "launch",
             "mainClass": "Beecrowd.Ishida1173",

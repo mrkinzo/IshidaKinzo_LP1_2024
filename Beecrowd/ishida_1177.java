@@ -16,13 +16,12 @@ public static void main(String[] args) {
 }
 public static int[] preencherVetor2(int[] vetor, int v) {
 
-    for (int i = 0; i < vetor.length; i++) {
-        if (i<v) {
-            
+        for (int i = 0; i < vetor.length; i++) {
+       while (i<v) {
+     vetor[i]=vetor[i]+1;
+       }
         }
-    }
-    return vetor;
-
+return vetor;
 }
 
 public static void printX(int[] vetor) {

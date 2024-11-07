@@ -21,7 +21,7 @@ public class Ishida1173 {
 
     public static int[] preencherVetor(int[] vetor, int v) {
 
-        for (int i = 0; i < vetor.length; i++) {
+        for (int i = -1; i < vetor.length; i++) {
             if (i == 0) {
                 vetor[i] = v;
             } else {

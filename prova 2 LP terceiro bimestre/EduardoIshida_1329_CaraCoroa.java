@@ -29,9 +29,7 @@ public class EduardoIshida_1329_CaraCoroa {
 
             for (int i = 0; i < y; i++) {
                 moeda = SC.nextInt();
-                //while (moeda != 0 || moeda != 1) { // essa validação fazer no método.
-                    // moeda = SC.nextInt();
-                //}
+                verificarMoeda();
                 System.out.println("__LINE__" + 34);
                 if (moeda == 1) {
                     vitoriasJ++;
@@ -43,11 +41,20 @@ public class EduardoIshida_1329_CaraCoroa {
             // ten que zerar a quantidade de vitórias deles quando termina a partida
         }
     }
+    public static int verificarMoeda(){
+        int moeda=0;
+          while (moeda != 0 || moeda != 1) { // essa validação fazer no método.
+              moeda = SC.nextInt();
+          }
+       }
+
+     }
+
 
     public static void printWin(int x, int y) {
         System.out.printf("Maria venceu %d vezes e João venceu %d vezes\n", y, x); // %i para inteiro é %d há muitos anos...
     }
-}
+
 /* Conceito C
  * 
  * Usar melhor os métodos, separar melhor as funcionalidades.

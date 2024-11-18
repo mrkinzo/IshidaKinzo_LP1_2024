@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NegocioDoKpiroto_Adivinha",
+            "request": "launch",
+            "mainClass": "Beecrowd.NegocioDoKpiroto_Adivinha",
+            "projectName": "IshidaKinzo_LP1_2024-1_74fbe064"
+        },
+        {
+            "type": "java",
+            "name": "ishida_2791",
+            "request": "launch",
+            "mainClass": "Beecrowd.ishida_2791",
+            "projectName": "IshidaKinzo_LP1_2024-1_74fbe064"
+        },
+        {
+            "type": "java",
             "name": "rec_test",
             "request": "launch",
             "mainClass": "recuperação.rec_test",

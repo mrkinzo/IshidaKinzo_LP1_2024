@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ishida_1796",
+            "request": "launch",
+            "mainClass": "Beecrowd.Ishida_1796",
+            "projectName": "IshidaKinzo_LP1_2024-1_74fbe064"
+        },
+        {
+            "type": "java",
+            "name": "Ishida_2540",
+            "request": "launch",
+            "mainClass": "Beecrowd.Ishida_2540",
+            "projectName": "IshidaKinzo_LP1_2024-1_74fbe064"
+        },
+        {
+            "type": "java",
             "name": "NegocioDoKpiroto_Adivinha",
             "request": "launch",
             "mainClass": "Beecrowd.NegocioDoKpiroto_Adivinha",

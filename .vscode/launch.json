@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exe001",
+            "request": "launch",
+            "mainClass": "matriz.exe001",
+            "projectName": "IshidaKinzo_LP1_2024_ec836c3c"
+        },
+        {
+            "type": "java",
             "name": "exe004",
             "request": "launch",
             "mainClass": "matriz.exe004",

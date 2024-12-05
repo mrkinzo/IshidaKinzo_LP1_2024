@@ -40,16 +40,23 @@ public class exe004 {
             System.out.println();
             }
 
-          imprimirMatriz(vetCol);
+          imprimirMatriz(vetCol,mat);
 
     }
+      public static void imprimirMatriz(int[] vetCol,int [][] mat) {
 
-    public static void imprimirMatriz(int[] vetCol) {
-
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[0].length; j++) {
+            System.out.printf(mat[i][j] + " ");
+            }
+            System.out.println();
+            }
+            
+            System.out.println();
         for (int i = 0; i < vetCol.length; i++) {
-            System.out.println(vetCol[i]);
+            System.out.print(vetCol[i]+ " ");
         }
-      
+        System.out.println();
     }
 
     public static int[][] lerMatriz(int[][] mat) {

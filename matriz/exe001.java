@@ -14,31 +14,30 @@ public class exe001 {
         int m = 0;
         int soma = 0;
         int k = 9;
-        int media = 0;
         n = lerInt();
         m = lerInt();
 
         int[][] mat;
-
-        // System.out.println("Criando a matriz");
         mat = criarMatriz(n, m);
-
-        // System.out.println("Inicializando a matriz");
+       
         mat = inicializarMatriz(mat, k);
-
-        // System.out.println("imprimindo matriz inicializada");
-        // imprimirMatriz(mat);
-
-        // System.out.println("lendo a matriz");
         mat = lerMatriz(mat);
         soma = somarMat(mat);
-        media =calcularMediaMat(soma, mat);
-                // System.out.println("imprimindo Matriz");
-                imprimirMatriz(mat, soma, media);
+    
+              
+                imprimirMatriz(mat, soma);
 
     }
 
-    public static void imprimirMatriz(int[][] mat, int soma, int media) {
+    public static void imprimirMatriz(int[][] mat, int soma) {
+
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[0].length; j++) {
+            System.out.printf(mat[i][j] + " ");
+            }
+            System.out.println();
+            }
+
 
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[0].length; j++) {
@@ -46,15 +45,11 @@ public class exe001 {
             }
             System.out.println();
         }
-        System.out.println(soma);
-        System.out.println(media);
+        System.out.println("");
+        System.out.println("soma = "+soma);
     }
 
-    public static int calcularMediaMat(int soma, int[][] mat) {
-        int media = 0;
-        media = soma / mat.length * mat[0].length;
-        return media;
-    }
+ 
 
     public static int[][] lerMatriz(int[][] mat) {
 
@@ -107,17 +102,10 @@ public class exe001 {
         int soma = 0;
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat.length; j++) {
-                soma += mat[i][j];
+                soma += mat[j][i];
             }
         }
         return soma;
     }
-    public static int mostrarMenorN(int[][]mat){
-        int menorN=0;
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat.length; j++) {
-                ma
-            }
-        }
-    }
+    
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TCA_AgndCConsulta",
+            "request": "launch",
+            "mainClass": "TCA_AgndCConsulta",
+            "projectName": "IshidaKinzo_LP1_2024_dc1166e7"
+        },
+        {
+            "type": "java",
             "name": "exe006",
             "request": "launch",
             "mainClass": "matriz.exe006",

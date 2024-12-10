@@ -5,10 +5,28 @@ public class TCA_AgndCConsulta {
 
     public static void main(String[] args) {
 
-        int comando = 0;
-        boolean tutorial = true;
-
         imprimirMenu();
+
+        utilizarFuncoes();
+        // apresentarAgendar();
+        // apresentarTutorial();
+        // apresentarMenuFuncoes();
+        // apresentarTelaDespedida();
+
+        
+       
+        
+
+    }
+
+
+    public static void utilizarFuncoes() {
+        int comando = 0;
+        
+        while (comando!= 0) {
+            
+        }
+        boolean tutorial = true;
         tutorial = verificarComandoParaTutorial();
         while (tutorial) {
             imprimirTutorial();
@@ -17,26 +35,32 @@ public class TCA_AgndCConsulta {
 
         do {
             comando = lerComandoUsuario();
+            String[][] paginasBackup;
             switch (comando) {
                 case 1:
-                    
+                    int qtdLog = lerNumInt();
+                    String[][] paginas = criarMatrizString(comando, qtdLog);
+                    paginas = regitrar(paginas);
+                    paginasBackup = salvarRegistro(paginas);
                     break;
-            
-                default:
-                    break;
-            }
+                case 2:
 
+            }
 
         } while (comando != 0);
 
-        
-      
-
     }
 
+    // apresentarMenuFuncoes
+
+    // listar as funciolidades
+
+    // pegar o comando
+    // executa a funcao
+
     public static String[][] criarMatrizString(int linhas, final int colunas) {
-        String[][] paginas = criarMatrizString(linhas, colunas); // [0] = mes , [1] dia , [2] tipo , [3] = log
-        return paginas;
+        String[][] matrizString = criarMatrizString(linhas, colunas); // [0] = mes , [1] dia , [2] tipo , [3] = log
+        return matrizString;
     }
 
     public static int lerNumInt() {

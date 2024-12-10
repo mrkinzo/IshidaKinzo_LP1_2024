@@ -4,17 +4,39 @@ public class TCA_AgndCConsulta {
     final static Scanner LER = new Scanner(System.in);
 
     public static void main(String[] args) {
+
+        int comando = 0;
+        boolean tutorial = true;
+
         imprimirMenu();
-        boolean tutorial = verificarComandoParaTutorial();
+        tutorial = verificarComandoParaTutorial();
         while (tutorial) {
             imprimirTutorial();
             tutorial = verificarComandoParaTutorial();
         }
-        // int qtdRegistros = lerNumInt();
 
-        // String[][] paginas = criarMatrizString(qtdRegistros, 4); // [0] = mes , [1]
-        // dia , [2] tipo , [3] = log
+        do {
+            comando = lerComandoUsuario();
+            switch (comando) {
+                case 1:
+                    
+                    break;
+            
+                default:
+                    break;
+            }
 
+
+        } while (comando != 0);
+
+        
+      
+
+    }
+
+    public static String[][] criarMatrizString(int linhas, final int colunas) {
+        String[][] paginas = criarMatrizString(linhas, colunas); // [0] = mes , [1] dia , [2] tipo , [3] = log
+        return paginas;
     }
 
     public static int lerNumInt() {

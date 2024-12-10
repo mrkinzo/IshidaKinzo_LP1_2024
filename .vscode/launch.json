@@ -9,6 +9,13 @@
             "name": "TCA_AgndCConsulta",
             "request": "launch",
             "mainClass": "TCA_AgndCConsulta",
+            "projectName": "IshidaKinzo_LP1_2024_62972186"
+        },
+        {
+            "type": "java",
+            "name": "TCA_AgndCConsulta",
+            "request": "launch",
+            "mainClass": "TCA_AgndCConsulta",
             "projectName": "IshidaKinzo_LP1_2024_b365319e"
         },
         {

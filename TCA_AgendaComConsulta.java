@@ -134,8 +134,6 @@ public class TCA_AgendaComConsulta {
         System.out.println();
     }
     public static void integerToString(){
-       String t = String.valueOf(22);
-      System.out.println(t);
-
+      LER.next().charAt
     }
 }

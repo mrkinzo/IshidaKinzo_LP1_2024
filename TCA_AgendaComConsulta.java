@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class TCA_AgendaComConsulta {
     final static Scanner LER = new Scanner(System.in);
 
@@ -7,6 +8,7 @@ public class TCA_AgendaComConsulta {
        int qtdRegistros=lerNumInt();
        int prompt=0;
        
+       integerToString();
        
         imprimirMenu();
         boolean tutorial = verificarComandoParaTutorial();
@@ -130,5 +132,10 @@ public class TCA_AgendaComConsulta {
     public static void NerdOut(){
 
         System.out.println();
+    }
+    public static void integerToString(){
+       String t = String.valueOf(22);
+      System.out.println(t);
+
     }
 }

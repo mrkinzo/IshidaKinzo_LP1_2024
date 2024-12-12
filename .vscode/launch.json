@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "IshidaKinzo_LP1_2024_3aabcb2b"
+        },
+        {
+            "type": "java",
+            "name": "TCA_AgendaComConsulta",
+            "request": "launch",
+            "mainClass": "TCA_AgendaComConsulta",
+            "projectName": "IshidaKinzo_LP1_2024_3aabcb2b"
+        },
+        {
+            "type": "java",
             "name": "nerdyCode",
             "request": "launch",
             "mainClass": "nerdyCode",

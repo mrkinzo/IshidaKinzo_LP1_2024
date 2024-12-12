@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nerdyCode",
+            "request": "launch",
+            "mainClass": "nerdyCode",
+            "projectName": "IshidaKinzo_LP1_2024_3aabcb2b"
+        },
+        {
+            "type": "java",
             "name": "WoW",
             "request": "launch",
             "mainClass": "WoW",

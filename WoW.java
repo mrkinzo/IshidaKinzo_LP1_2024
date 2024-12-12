@@ -22,20 +22,6 @@ public class WoW {
                 s = "[30m";// preto
                 break;
             case 1:
-                s = "[31m";// vermelho
-                break;
-            case 2:
-                s = "[32m";// verde
-                break;
-            case 3:
-                s = "[303m";// amarelo
-                break;
-            case 4:
-                s = "[34m";// azul
-                break;
-            case 5:
-                s = "[35m";// magenta
-                break;
             case 6:
                 s = "[36m";// ciano
                 break;
@@ -52,7 +38,30 @@ public class WoW {
         limparTela();
         System.out.println("  Bom dia!");
         System.out.println("                  {}");
-        System.out.println("  ,   A           {}");
+        System.out.println("  ,   A           
+                s = "[31m";// vermelho
+                break;
+            case 2:
+                s = "[32m";// verde
+                break;
+            case 3:
+                s = "[303m";// amarelo
+                break;
+            case 4:
+                s = "[34m";// azul
+                break;
+            case 5:
+                s = "[35m";// magenta
+                break;
+                case 6:
+                    s = "[36m";// ciano
+                    break;
+                case 7:
+                    s = "[97m";// branco
+                    break;
+            }
+    
+            System.out.print((char) 27 {}");
         System.out.println(" / \\, | ,        .--.");
         System.out.println("|  =|= >        /.--.\\");
         System.out.println(" \\ /` | `       |====|");
@@ -79,6 +88,23 @@ public class WoW {
     public static void main(String[] args) {
         int linha, coluna, cor;
         int TAM_LINHA = 30;
+        case 6:
+            s = "[36m";// ciano
+            break;
+        case 7:
+            s = "[97m";// branco
+            break;
+    }
+
+    System.out.print((char) 27 + s);
+}
+
+
+public static void asciiArt(){
+    limparTela();
+    System.out.println("  Bom dia!");
+    System.out.println("                  {}");
+    System.out.println("  ,   A           
         int TAM_COLUMA = 160;
         int NUM_CORES = 8;
 
